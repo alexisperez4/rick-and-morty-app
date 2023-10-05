@@ -1,8 +1,8 @@
 <template>
-    <section>
+    <section class="container">
         <div class="characters">
             <div class="characters__item" v-for="character in characters" :key="character.id">
-                <CardCharacter :character = character />
+                <CardCharacter :character = "character" />
             </div>
 
         </div>
