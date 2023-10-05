@@ -1,7 +1,7 @@
 
 <template>
 
-  <h1>Rick And Morty</h1>
+  <h1 class="text-white">Rick And Morty</h1>
   <ListCharacters />
 
 </template>

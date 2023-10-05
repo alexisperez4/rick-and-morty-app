@@ -1,4 +1,5 @@
 import { createApp } from 'vue';
+import './assets/styles/global.scss'; 
 import App from './App.vue';
 import store from './store'; // Importa tu archivo de configuración de Vuex aquí
 
