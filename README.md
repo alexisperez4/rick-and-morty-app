@@ -1,3 +1,5 @@
+# Rick and Morty API with Vue.js
+
 ## Project Setup
 
 ```sh
