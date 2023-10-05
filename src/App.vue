@@ -1,9 +1,11 @@
 
 <template>
-
-  <h1>Rick And Morty</h1>
-  <FilterbyStatus />
-  <FilterByName />
+  <div class="centered-container">
+    <h1>Rick And Morty</h1>
+    <FilterbyStatus />
+    <FilterByName />
+  </div>
+  
   <ListCharacters />
 
 </template>

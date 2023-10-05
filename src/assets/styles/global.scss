@@ -1,8 +1,9 @@
 :root {
-    --background-body: #24282F;    
-    --background-card: #3f3e3e;     
-    --text-gray: #c0c0c0;          
-    --text-orange: #ff9800;      
+    --background-body: #24282F;
+    --background-card: #3C3E44;
+    --text-white: #FFFFFF;
+    --text-gray: #c0c0c0;
+    --text-orange: #FF9800;
 }
 
 * {
@@ -13,24 +14,23 @@
   
 body {
     background-color: var(--background-body);
-    color: white;
-    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-white);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
-    margin: 3rem;
+    margin-bottom: 3rem;
     text-align: center;
 }
 
 .container {
-    width: 900px;
+    width: 980px;
     max-width: 90%;
     margin: 5rem auto;
 }
 img {
     width: 100%;
 }
-
 
 
 .filter {
@@ -41,15 +41,15 @@ img {
     border-radius: 10px;
     overflow: hidden;
     .item {
-        padding: 1rem 0.5rem;
-        background-color:  var(--background-card);
-        text-align: center;
-        cursor: pointer;
-        &:hover {
-            color: var(--text-orange)
-        }
+      padding: 1rem 0.5rem;
+      background-color: var(--background-card);
+      text-align: center;
+      cursor: pointer;
+      &:hover {
+        color: var(--text-orange);
+      }
     }
-}
+  }
 
 .search {
     width: 400px;
@@ -126,4 +126,19 @@ img {
             margin-bottom: 0.5rem;
         }
     }
+}
+
+.characters {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+    margin: 3rem 0;
+}
+
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 10px; 
 }
